@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/241a1cab24.js" crossorigin="anonymous"></script>
+    <title>Mr Adviser</title>
+    <link rel="shortcut icon" img="C:/Users/risha/OneDrive/Desktop/Mr Adviser/MA/mradvisersmall.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="navbar.css">
+    <style>
+        body{
+            background-color: rgb(247, 247, 247);
+            color: rgb(0, 0, 0);
+        }
+        #videos {
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            gap: 20px;
+            margin-top: 25px;
+        }
+        #videos img {
+            width: 100%;
+        }
+        
+        #sorting {
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+        #sorting > button {
+            background-color: rgb(108, 140, 246);
+            padding: 10px 15px;
+            color: white;
+            border: none;
+            border-radius: 5px;
+        }
+        #sorting > button:hover {
+            background-color: rgb(53, 2, 255);
+        }
+    </style>
+</head>
+<body>
+    <div id="navbar">
+        
+    </div>
+    <div id="sorting">
+        <button id="sortView">Sort by views</button>
+        <button id="sortAlpha">Sort Alphabetically</button>
+        <button id="sortRating">Sort By Rating</button>
+    </div>
+    <div id="videos">
+
+    </div>
+    <footer>
+        <p>Copyright &copy; 2023 Mr. Adviser</p>
+    </footer>    
+</body>
+</html>
+<script type="module" src="index.js"></script>
